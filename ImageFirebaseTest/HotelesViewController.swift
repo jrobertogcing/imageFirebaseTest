@@ -14,7 +14,7 @@ class HotelesViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     var ref: DatabaseReference!
 
-    var arrayTest = [String]()
+    
     var imageURLs = [String]()
     var arrayTitulos = [String]()
     
