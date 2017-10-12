@@ -25,35 +25,7 @@ class HotelesViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     override func viewDidAppear(_ animated: Bool) {
        
-        //imageURLs.removeAll()
-        //arrayTest.removeAll()
-        
-        IndicatorView.isHidden = false
-        activityIndicactorHotels.startAnimating()
-
-        
-        readJSON() { ready in
-            
-            if ready == "Ready" {
-                
-                
-                self.readJSONTitulos(){ ready in
-                    
-                    self.hotelesTableView.reloadData()
-                    
-                    self.IndicatorView.isHidden = true
-                    self.activityIndicactorHotels.stopAnimating()
-
-                    
-                //    print(self.imageURLs)
-                    
-                    
-                }
-            }
-            
-        }
-        
-
+      
     }
     override func viewDidLoad() {
         super.viewDidLoad()
