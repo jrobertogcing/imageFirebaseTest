@@ -55,9 +55,7 @@ class HotelesViewController: UIViewController, UITableViewDelegate, UITableViewD
                     self.activityIndicactorHotels.stopAnimating()
 
                 
-                    print(self.arrayTitulos)
-                   // print(self.imageURLs)
-            
+                    
                     
                 }
             }
@@ -101,7 +99,7 @@ class HotelesViewController: UIViewController, UITableViewDelegate, UITableViewD
                 return
             }
             
-            print(titulo1 as! String)
+         
             
             guard let titulo2 = dataInJSON["titulo2"]  else {
                 
